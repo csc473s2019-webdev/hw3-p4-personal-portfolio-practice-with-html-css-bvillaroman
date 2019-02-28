@@ -1,0 +1,17 @@
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.navbar {
+  width: 100%;
+  display: inline-block;
+  height: auto;
+  text-align: right;
+}
+
+.navItem {
+  /* width: 100%; */
+  display: inline-block;
+  /* height: auto; */
+}
