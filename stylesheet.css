@@ -1,17 +1,32 @@
 html, body {
   font-family: 'Open Sans', sans-serif;
-  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
+  height: 3rem;
+  text-align: right;
+  z-index: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
   width: 100%;
+  background-color: orange;
+}
+.navItem {
   display: inline-block;
   height: auto;
-  text-align: right;
+  padding: .75rem ;
 }
-
-.navItem {
-  /* width: 100%; */
-  display: inline-block;
-  /* height: auto; */
+.navItem a {
+  color: black;
+  text-decoration: none;
+}
+.section {
+  width: auto;
+  min-height: 55vh;
+  padding-top: 15vh;
 }
