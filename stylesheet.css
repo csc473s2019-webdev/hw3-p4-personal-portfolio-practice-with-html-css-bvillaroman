@@ -60,17 +60,17 @@ html, body {
 #projects .header {
   padding: 2rem;
 }
-.project-tile {
+#projects .project-tile {
   position: relative;
   width: 100%;
   width: 40rem;
   margin: 0 auto;
   text-align: center;
 }
-.project-tile img {
+#projects .project-tile img {
   width: 40rem;
 }
-.overlay {
+#projects .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -81,18 +81,31 @@ html, body {
   opacity: 0;
   transition: .3s ease;
 }
-.overlay h1 {
+#projects .overlay h1 {
   padding: 22vh;
   z-index: 5;
   position: relative;
   margin: 0 auto;
   color: #ff8f00;
 }
-.project-tile:hover .overlay {
+#projects .project-tile:hover .overlay {
   opacity: 1;
   background-color: rgba(0, 0, 0, 0.8);
 }
-
+#contact-section {
+  text-align: center; 
+  height: 50vh;
+  font-size: 2rem;
+  width: 100%;
+  margin: 0 auto;
+}
+#contact-section h1 {
+  padding-bottom: 5rem;
+}
+#contact-section .profile-link{
+  font-size: 2rem;
+  padding-left: 2.5rem;  
+}
 .intro-headers {
   padding-top: 25vh;
 }
@@ -103,6 +116,9 @@ html, body {
 .intro-headers h1 span {
   color: #ff8f00;
 }
+
+
+
 @media only screen and (max-width: 650px) {
   .navbar {
     display: block;
