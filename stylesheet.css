@@ -103,3 +103,19 @@ html, body {
 .intro-headers h1 span {
   color: #ff8f00;
 }
+@media only screen and (max-width: 650px) {
+  .navbar {
+    display: block;
+    text-align: center;
+    height: 6rem;
+  }
+  .center-logo {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .navItems {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
